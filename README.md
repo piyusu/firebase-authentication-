@@ -4,36 +4,13 @@ A full-stack MERN application demonstrating Firebase Authentication with role-ba
 
 ## ✨ Features
 
-- **🔐 Firebase Authentication**: Google Sign-in with secure token-based authentication
-- **👥 Role-Based Access Control**: Admin and User roles with different permissions
-- **📝 Task Management**: Full CRUD operations for tasks
-- **🛡️ Secure APIs**: Protected endpoints with role-based authorization
-- **📱 Modern UI**: Clean, responsive React frontend with beautiful design
-- **⚡ Real-time Updates**: Immediate UI updates after operations
-- **📊 Admin Dashboard**: Role assignment and system management tools
-
-## 🏗️ Architecture
-
-```
-firebase_authentication/
-├── client/                 # React Frontend
-│   ├── src/
-│   │   ├── context/        # Authentication context
-│   │   ├── firebase.js     # Firebase configuration
-│   │   ├── api.js          # API client with authentication
-│   │   ├── App.jsx         # Main application component
-│   │   └── App.css         # Modern, responsive styling
-│   └── package.json
-├── server/                 # Express Backend
-│   ├── src/
-│   │   ├── config/         # Firebase Admin configuration
-│   │   ├── middleware/     # Authentication & RBAC middleware
-│   │   ├── models/         # MongoDB schemas
-│   │   ├── routes/         # API endpoints
-│   │   └── index.js        # Server entry point
-│   └── package.json
-└── README.md
-```
+- ** Firebase Authentication**: Google Sign-in with secure token-based authentication
+- ** Role-Based Access Control**: Admin and User roles with different permissions
+- ** Task Management**: Full CRUD operations for tasks
+- ** Secure APIs**: Protected endpoints with role-based authorization
+- ** Modern UI**: Clean, responsive React frontend with beautiful design
+- ** Real-time Updates**: Immediate UI updates after operations
+- ** Admin Dashboard**: Role assignment and system management tools
 
 ## 🚀 Quick Start
 
